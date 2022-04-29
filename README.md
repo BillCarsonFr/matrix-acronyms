@@ -72,5 +72,5 @@
 ## U
 
 - UIA: [User-Interactive Authentication](https://spec.matrix.org/v1.2/client-server-api/#user-interactive-authentication-api)
-- <details><summary>UISI: Unknown Inbound Session ID</summary> Old name to refer to `UTD`</details>
-- UTD: Unable to Decrypt
+- UISI: <details><summary>Unknown Inbound Session ID.</summary>When you can't decrypt because you don't have the root key (megolm session) for this message. Presumably because it wasn't sent to you by the message sender.</details>
+- UTD: <details><summary>Unable To Decrypt.</summary>A generic unable to decrypt error. UISI is a kind of UTD; other can be UNKNOWN_MESSAGE_INDEX (have the ratchet but not at this index), BAD_ENCRYPTED_MESSAGE ...</details>
